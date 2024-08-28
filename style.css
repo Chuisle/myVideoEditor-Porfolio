@@ -1,0 +1,158 @@
+*{
+    text-align: center;
+    background-color : #272727
+}
+.logo-container{
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.logo-container img {
+    display: block; /* Remove extra space below the image */
+    width: 100px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+.hover-text-logo {
+    position: absolute;
+    top: 80%; /* Position below the image */
+    left: 40%;
+    transform: translateX(-50%);
+    color: #b3b0b0;
+    padding: 0px;
+    border-radius: 3px;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.3s;
+    text-align: center;
+    width:50%; /* Adjust width as needed */
+    box-sizing: border-box; /* Include padding and border in width */
+    margin-top: 25px;
+}
+.logo-container:hover .hover-text-logo {
+    opacity: 1;
+}
+h1{
+    background-color: #15171a;
+    color : #ffffff
+}
+h2{
+    background-color: #15171a;
+    color : #ffffff
+} 
+hr{
+    background-color: rgb(68, 186, 216);
+    height:2px;
+    border:none
+}
+a{
+    color : #8a8383;
+    text-decoration-line: none;
+}
+.all{
+    width:50%;
+    margin-left: 25%;
+}
+.showreel{
+    width: 60%;
+    margin-left: 20%;
+}
+.myfootage{
+    
+    position: relative;
+    width: 100%;                /* Make the container width 100% of its parent */
+    aspect-ratio: 16 / 9;       /* Maintain a 16:9 aspect ratio */
+    margin: 0 auto;            /* Center the container */
+}
+.mugio{
+    position: relative;
+    width: 100%;                /* Make the container width 100% of its parent */
+    aspect-ratio: 16 / 9;       /* Maintain a 16:9 aspect ratio */
+    margin: 0 auto;            /* Center the container */
+
+}
+.video1{
+    position: relative;
+    width: 100%;                /* Make the container width 100% of its parent */
+    aspect-ratio: 16 / 9;       /* Maintain a 16:9 aspect ratio */
+    margin: 0 auto;            /* Center the container */
+
+}
+.intro{
+    position: relative;
+    width: 100%;                /* Make the container width 100% of its parent */
+    aspect-ratio: 16 / 9;       /* Maintain a 16:9 aspect ratio */
+    margin: 0 auto;            /* Center the container */
+
+}
+.YTicon{
+    width: 9%
+}
+.Gmailicon{
+    width:9%
+}
+.phicon{
+    width:8%
+}
+#text{
+    color:#ffffff
+}
+a{
+    color:rgb(165, 245, 245)
+}
+#footer{
+    color:#8f8f8f
+}
+h3{
+    color:#ffffff
+}
+.container {
+    text-align: center; /* Center align text inside the container */
+    margin-bottom: 50px;
+}
+
+.icon-container {
+    display: flex;
+    gap: 90px; /* Adjust space between icons as needed */
+    justify-content: center; /* Center the icons horizontally */
+}
+.icon {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+.icon img {
+    display: block; /* Remove extra space below the image */
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+}
+.gmail-icon img {
+    width: 85px; /* Set size for Gmail icon */
+    height: 60px; /* Set size for Gmail icon */
+    margin-top: 12px;
+}
+.ph-icon img {
+    width: 80px; /* Set size for Upwork icon */
+    height: 80px; /* Set size for Upwork icon */
+}
+.hover-text {
+    position: absolute;
+    top: 100%; /* Position above the image */
+    left: 50%;
+    transform: translateX(-50%);
+    color: #b3b0b0;
+    padding: 0px;
+    border-radius: 3px;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.3s;
+    text-align: center;
+    width:50%; /* Adjust width as needed */
+    box-sizing: border-box; /* Include padding and border in width */
+    margin-top: 25px;
+    
+}
+.icon:hover .hover-text {
+    opacity: 1;
+}
